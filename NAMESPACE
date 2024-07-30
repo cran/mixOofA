@@ -1,0 +1,8 @@
+importFrom("utils", "combn", "head", "tail")
+importFrom("stats", "model.matrix", "pf", "predict")
+importFrom("doofa", "pwo")
+importFrom("crossdes", "MOLS")
+importFrom("mixexp", "SCD")
+importFrom("combinat", "permn")
+importFrom("Rsolnp", "solnp")
+export("oofa.oa","PWO","D_effi_pwo","COA","oofa.sld","oofa.scd","mixoofa.anova","find_opt_target")
